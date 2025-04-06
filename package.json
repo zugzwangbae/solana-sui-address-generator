@@ -1,0 +1,40 @@
+{
+  "name": "solana-sui-address-generator",
+  "version": "1.0.0",
+  "description": "Generate custom Solana and Sui addresses that end with your desired patterns",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "start": "ts-node src/cli.ts"
+  },
+  "keywords": [
+    "solana",
+    "sui",
+    "blockchain",
+    "wallet",
+    "address",
+    "generator",
+    "vanity"
+  ],
+  "author": "zugzwangbae",
+  "license": "ISC",
+  "dependencies": {
+    "@mysten/sui.js": "^0.50.1",
+    "@solana/web3.js": "^1.91.1",
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.28",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
